@@ -1,0 +1,136 @@
+@import "reset.css";
+@import "font.css";
+@import "title.css";
+@import "components/music_bar.css";
+
+body {
+  width: 100%;
+  height: 250vh;
+}
+
+main {
+  position: relative;
+}
+
+.null_space {
+  width: 100%;
+  height: 50px;
+}
+
+.whos_div {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: wheat;
+}
+
+#kane_image1 {
+  padding: 1%;
+  display: flex;
+  margin: 1% 0;
+  width: 25%;
+  width: 25%;
+  float: left;
+  border: 6px double black;
+}
+
+.menubar_tab {
+  width: 80%;
+  height: 50px;
+  padding: 2%;
+  margin: auto;
+
+  display: flex;
+  position: absolute;
+
+  justify-content: space-between;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tab {
+  width: 23%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.whos_div_texts {
+  margin: 2%;
+  padding-left: 30%;
+}
+.kane_face {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.kane_nose {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+}
+
+#kane_nose_image {
+  padding-left: 27px;
+  padding-right: 100%;
+  width: 27px;
+  height: 26px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.3s ease-in-out, height 0.5s ease-in-out;
+}
+
+#kane_nose_image:hover {
+  cursor: pointer;
+}
+
+.background_moving_nose {
+  display: flex;
+  flex-direction: column;
+  scroll-padding-bottom: 10%;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  top: 0;
+  left: 0;
+  background-image: url("../images/nose_back.png");
+  background-repeat: round;
+  opacity: 0.08;
+  animation: movebg 30s linear infinite;
+}
+
+@keyframes movebg {
+  0% {
+    background-position: 100% 0%;
+  }
+
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+/*
+인사하는 케인
+코유코재  
+바퀴벌레 케인
+  배먹는 케인
+
+*/

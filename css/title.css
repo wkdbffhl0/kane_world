@@ -1,0 +1,47 @@
+header {
+  margin: 7%;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_kane_world {
+  position: absolute;
+  top: -50px;
+  opacity: 1;
+
+  animation: title_animation 0.8s ease-in-out;
+}
+
+@keyframes title_animation {
+  0% {
+    top: 50px;
+    opacity: 0;
+  }
+  100% {
+    top: -50px;
+    opacity: 1;
+  }
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

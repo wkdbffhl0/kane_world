@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>케인월드</title>
+  </head>
+  <body>
+    <div class="background_moving_nose"></div>
+
+    <header>
+      <div class="title_kane_world">
+        <span id="title"><a href="index.html">Kane World </a></span>
+      </div>
+    </header>
+
+    <main>
+      <div class="menubar_tab">
+        <div class="tab"><h1>who's Kane</h1></div>
+        <div class="tab"><h2>그의 모습들</h2></div>
+        <div class="tab"><h2>그의 모습들</h2></div>
+        <div class="tab"><h2>모습</h2></div>
+      </div>
+      <div class="null_space"></div>
+
+      <div class="whos_div">
+        <div class="whos_div_kane_image1">
+          <img id="kane_image1" src="images/kane_image1.PNG" />
+          <div class="whos_div_texts">
+            <span id="kane_image1_descript"
+              >'케인'이라는 닉네임은 WWE 소속의 프로레슬러 케인에서 이름이
+              유래했는데, 아프리카에서 BJ로 활동하던 시절 레슬러 케인의 가면을
+              쓰고 캠 방송을 해서 그렇다. 그런데 나중에 캠이 켜진 걸 모르고
+              "아우 더워"하며 가면을 벗는 바람에 얼굴이 드러났고, 그 다음부턴
+              얼굴을 공개하고 방송을 한 게 지금까지 이어져오고 있는 것. 타지리나
+              커트 앵글과 같은 프로레슬러가 케인의 밈이 된 것도 여기에 관련되어
+              있다. 동물을 상당히 좋아한다. 특히 고양이를 좋아하며 개, 고양이,
+              햄스터, 소, 돼지, 양, 오리, 코끼리 등 별 동물을 가리지 않고 동물은
+              대개 좋아하는 편. 파충류, 조류, 양서류는 물론 귀뚜라미, 잠자리
+              같은 곤충도 싫어하지 않으며 병원균을 옮기는 곱등이와 바퀴벌레를
+              제외한 모든 동물들을 미워하지 않는다고 한다. 그리마 조차 "그래
+              바퀴벌레 잡아먹고 살렴~" 이라며 오히려 집에 등장한 걸 안심했다고.
+              - 출처 나무위키
+            </span>
+          </div>
+        </div>
+        <h2 id="kane_image1_name">케인 초상화</h2>
+      </div>
+
+      <div class="kane_face">
+        <img src="images/kane_face.PNG" />
+        <div class="kane_nose">
+          <img
+            id="kane_nose_image"
+            src="images/kane_nose.PNG"
+            onclick="noseFuncion()"
+          />
+        </div>
+      </div>
+      <span>코유자재</span>
+
+      <div class="music_bar">
+        <div class="music_bar_music_image"></div>
+
+        <div class="music_bar_group1">
+          <div class="music_bar_music_name">
+            <span>뭉탱이 월드 - You Suk</span>
+          </div>
+          <div class="msuic_bar_progress_area">
+            <div class="msuic_bar_progress_bar"></div>
+          </div>
+        </div>
+        음량 조절 반복 여부 순차재생
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

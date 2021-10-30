@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Rampart+One&display=swap"); /*구글 폰트*/
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Rampart+One&family=Sunflower:wght@700&display=swap");
+
+h1 {
+  font: 700 1.3em/1 "Architects Daughter", sans-serif;
+}
+
+h2 {
+  font-family: "Sunflower", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h2#kane_image1_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8%;
+  float: left;
+}
+
+span {
+  font-family: "Sunflower", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+span#kane_image1_descript {
+  font-family: "Sunflower", sans-serif;
+  font-weight: 300;
+  margin-top: 5%;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+
+span#title {
+  font: 700 4em/1 "Architects Daughter", sans-serif;
+  letter-spacing: 0;
+  padding: 0.25em 0 0.325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 230, 0, 0.5);
+
+  /* Clip Background Image */
+
+  background: url(../images/blue&yellow3.png) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  animation: aitf 80s linear infinite;
+  /* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
