@@ -6,6 +6,7 @@
 @import "components/music_bar.css";
 @import "components/repeat_background.css";
 @import "components/header_tab.css";
+@import "components/scrollbar_text.css";
 
 body {
   width: 100%;
@@ -47,9 +48,8 @@ main {
 .whos_div_kane_texts {
   display: inline;
   padding: 0 10px;
+  overflow-y: auto;
 }
-
-
 
 /* 코유코재 */
 .kane_face {

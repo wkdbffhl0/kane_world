@@ -1,0 +1,21 @@
+.whos_div_kane_texts::-webkit-scrollbar{
+    width: 5px;
+}
+
+.whos_div_kane_texts::-webkit-scrollbar-thumb{
+    background-color: rgba(47, 53, 66, 0);
+    border-radius: 5px;
+ }
+ 
+ 
+ .whos_div_kane_texts::-webkit-scrollbar-track{
+     background-color: rgba(128, 128, 128, 0);
+ }
+ 
+ .whos_div_kane_texts:hover::-webkit-scrollbar-thumb{
+    background-color: rgba(47, 53, 66, 1);
+ }
+
+ .whos_div_kane_texts:hover::-webkit-scrollbar-track{
+    background-color: rgba(128, 128, 128, 1);
+ }
