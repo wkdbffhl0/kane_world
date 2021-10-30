@@ -14,8 +14,8 @@ function noseFuncion() {
 
     sound_joygo.play();
   } else {
-    image_nose_width += 10;
-    image_nose_height += 10;
+    image_nose_width += 12;
+    image_nose_height += 12;
 
     sound_ong.play();
   }

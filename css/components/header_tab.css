@@ -1,0 +1,30 @@
+.menubar_tab {
+    width: 80%;
+    height: 50px;
+    padding: 2%;
+    margin: auto;
+  
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .tab {
+    width: 23%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .tab:hover{
+    width: 25%;
+    height: 55px;
+  }

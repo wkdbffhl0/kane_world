@@ -13,10 +13,11 @@ h2 {
 
 h2#kane_image1_name {
   display: flex;
+  position: absolute;
   flex-direction: column;
   justify-content: center;
-  padding-left: 8%;
-  float: left;
+  left: 30%;
+  bottom: -5%;
 }
 
 span {
