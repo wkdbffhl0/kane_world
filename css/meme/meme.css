@@ -1,0 +1,73 @@
+.meme_kane{
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    display: flex;
+}
+
+/* 코가 자유로운 나 시작 */
+.meme_kane .meme_kane_bignose {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+.meme_kane .meme_kane_bignose .meme_kane_bignose_nose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+  }
+  
+.meme_kane .meme_kane_bignose .meme_kane_bignose_nose #kane_nose_image {
+    padding-left: 27px;
+    padding-right: 100%;
+    width: 27px;
+    height: 26px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.3s ease-in-out, height 0.5s ease-in-out;
+  }
+  
+.meme_kane .meme_kane_bignose .meme_kane_bignose_nose #kane_nose_image:hover {
+    cursor: pointer;
+  }
+/* 코가 자유로운 나 끝 */
+
+
+  /*
+    인사하는 케인
+    배먹는 케인
+  */
+  
+/* 바선생을 뵈어서 기뻐하는 나 시작 */
+.meme_kane .meme_kane_roach{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.meme_kane .meme_kane_roach #meme_kane_roach_gif{
+    width: inherit;
+    height: inherit;
+    object-fit: scale-down;
+}
+
+.meme_kane .meme_kane_roach:hover{
+  cursor: url('../../images/meme/roach-cursor.cur'), pointer;
+}
+/* 바선생을 뵈서엇 기뻐하는 나 끝*/

@@ -44,7 +44,7 @@ span#title {
 
   /* Clip Background Image */
 
-  background: url(../images/blue&yellow3.png) repeat-y;
+  background: url(../images/design/blue&yellow3.png) repeat-y;
   -webkit-background-clip: text;
   background-clip: text;
 

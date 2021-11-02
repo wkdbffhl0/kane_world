@@ -7,7 +7,7 @@
     height: inherit;
     top: 0;
     left: 0;
-    background-image: url("../../images/nose_back.png");
+    background-image: url("../../images/design/nose_back.png");
     background-repeat: round;
     opacity: 0.08;
     animation: movebg 30s linear infinite;

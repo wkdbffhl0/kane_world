@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "font.css";
+@import "variables.css";
 @import "title.css";
 
 /* components */
@@ -7,6 +8,9 @@
 @import "components/repeat_background.css";
 @import "components/header_tab.css";
 @import "components/scrollbar_text.css";
+
+/* */
+@import "../css/meme/meme.css";
 
 body {
   width: 100%;
@@ -50,50 +54,3 @@ main {
   padding: 0 10px;
   overflow-y: auto;
 }
-
-/* 코유코재 */
-.kane_face {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.kane_nose {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 45%;
-  top: 50%;
-}
-
-#kane_nose_image {
-  padding-left: 27px;
-  padding-right: 100%;
-  width: 27px;
-  height: 26px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: width 0.3s ease-in-out, height 0.5s ease-in-out;
-}
-
-#kane_nose_image:hover {
-  cursor: pointer;
-}
-
-/*
-  인사하는 케인
-  코유코재  
-  바퀴벌레 케인
-  배먹는 케인
-
-*/
-
