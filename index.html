@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <!-- #region head -->
   <head>
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
+    <script type="text/javascript" src="vanilla-tilt.js" defer></script>
     <title>케인월드</title>
   </head>
+  <!-- #endregion -->
+
+  <!-- #region body -->
   <body>
     <div class="background_moving_nose"></div>
 
+    <!-- #region header - 케인 월드 타이틀 -->
     <header>
       <div class="title_kane_world">
         <span id="title"><a href="index.html">Kane World </a></span>
       </div>
     </header>
+    <!-- #endregion -->
 
+    <!-- #region main -->
     <main>
+
+      <!-- #region 구분 탭 -->
       <div class="menubar_tab">
         <div class="tab"><h1>who's Kane</h1></div>
         <div class="tab"><h2>그의 동료들</h2></div>
         <div class="tab"><h2>그의 일그러진 모습들</h2></div>
-        <div class="tab"><h2>모습</h2></div>
+        <div class="tab"><h2>그의 소스</h2></div>
       </div>
       <div class="null_space"></div>
+      <!-- #endregion-->
 
+      <!-- #region Who's Kane 영역 -->
       <div class="whos_div">
         <div class="whos_div_kane_image">
-          <img id="kane_image1" src="images/kane_image1.PNG" />
+          <img id="kane_image1" src="images/meme/kane_image1.PNG" />
           
           <h2 id="kane_image1_name">케인 초상화</h2>
         </div>
@@ -50,16 +62,17 @@
             - 출처 나무위키
           </span>
         </div>
-        
       </div>
-
+      <!-- #endregion -->
+     
+      <div class="meme_kane-screen">
       <div class="meme_kane">
         <div class="meme_kane_bignose">
-          <img src="images/kane_face.PNG" />
+          <img src="images/meme/kane_face.PNG" />
           <div class="meme_kane_bignose_nose">
             <img
               id="kane_nose_image"
-              src="images/kane_nose.PNG"
+              src="images/meme/kane_nose.PNG"
               onclick="noseFuncion()"
             />
           </div>
@@ -69,11 +82,17 @@
 
       <div class="meme_kane">
         <div class="meme_kane_roach">
-          <video id="meme_kane_roach_gif" src="images/meme/kane_saw_roach.mp4" muted onclick="volume_up()"></video>
+          <video id="meme_kane_roach_gif" src="images/meme/kane_saw_roach.mp4" muted onclick="volume_change()"></video>
         </div>
       </div>
       <span>바선생을 뵈어서 기뻐하는 나</span>
 
+      <div class="meme_kane">
+        <div id="meme_kane_sorry" onclick="meme_sorry_play()">
+        </div>
+      </div>
+      <span>ㅈㅅㅎㄴㄷ</span>
+    </div>
 
       <div class="music_bar">
         <div class="music_bar_music_image"></div>
@@ -88,7 +107,39 @@
         </div>
         음량 조절 반복 여부 순차재생
       </div>
+      
     </main>
+    <!-- #endregion -->
 
+    <div class="meme_partner-screen">
+
+      <div class="meme_partner">
+
+        <div class="meme_partner_sung-keun">
+          <div class="meme_partner-left_ani"></div>
+
+          <div class="meme_partner_sung-keun_images" data-tilt>
+            <img class="sung-keun_image" src="images/meme/sung-keun_shadow.png" />
+            <div class="inner">
+              <img class="sung-keun_shadow_image" src="images/meme/sung-keun.png" />
+            </div>
+          </div>
+
+          <img class="eagles-logo_image" src="images/meme/eagles-logo.svg"/>
+          <img class="back_image" src="images/meme/back.png"/>
+        
+          <div class="meme_partner-text_box">
+            <span>김성근 그는 케인의 정신적 지주이다.</span>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+    
+    
+   
+    </script>
   </body>
+  <!-- #endregion -->
 </html>

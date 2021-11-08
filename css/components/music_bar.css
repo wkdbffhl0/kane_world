@@ -8,15 +8,17 @@
   box-sizing: border-box;
   background-color: whitesmoke;
   box-shadow: 0px 10px 15px black;
+  z-index: 1000;
 }
 
 .music_bar_music_image {
   width: 150px;
   height: 100%;
 
-  background-image: url(../../images/music_cover/mungtaeng-i.png);
+  background-image: url(../../images/music_cover/mungtaengi-world_cover.png);
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
   float: left;
 }
 

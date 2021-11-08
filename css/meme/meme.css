@@ -1,3 +1,22 @@
+.meme_kane-screen{
+  position: relative;
+  display: flex;
+  margin: 25px;
+  width: 80%px;
+  height: 700px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+.meme_partner-screen{
+  position: relative;
+  display: flex;
+  
+}
+
 .meme_kane{
     width: 200px;
     height: 200px;
@@ -5,7 +24,12 @@
     display: flex;
 }
 
-/* 코가 자유로운 나 시작 */
+.meme_partner{
+  width: 400px;
+  height: 400px;  
+}
+
+/* #region 코가 자유로운 나*/
 .meme_kane .meme_kane_bignose {
     width: inherit;
     height: inherit;
@@ -42,15 +66,9 @@
 .meme_kane .meme_kane_bignose .meme_kane_bignose_nose #kane_nose_image:hover {
     cursor: pointer;
   }
-/* 코가 자유로운 나 끝 */
+/* #endregion 코가 자유로운 나 */
 
-
-  /*
-    인사하는 케인
-    배먹는 케인
-  */
-  
-/* 바선생을 뵈어서 기뻐하는 나 시작 */
+/* #region 바선생을 뵈어서 기뻐하는 나 */
 .meme_kane .meme_kane_roach{
     width: inherit;
     height: inherit;
@@ -70,4 +88,142 @@
 .meme_kane .meme_kane_roach:hover{
   cursor: url('../../images/meme/roach-cursor.cur'), pointer;
 }
-/* 바선생을 뵈서엇 기뻐하는 나 끝*/
+/* #endregion 바선생을 뵈서엇 기뻐하는 나 */
+
+/* #region ㅈㅅㅎㄴㄷ */
+.meme_kane #meme_kane_sorry{
+  width: inherit; 
+  height: inherit;
+  object-fit: scale-down;
+  background: url('../../images/meme/kane_sorry_sprite.png') 0 0 no-repeat;
+  background-size: 1100%;
+  cursor: pointer;
+}
+/* #endregion ㅈㅅㅎㄴㄷ */
+
+
+/* #region 배먹어 배 not */
+
+/* #endregion */
+
+/* #region 뭉탱이로 유리게슝 not */
+
+/* #endregion 뭉탱이로 유리게슝 */
+
+
+.meme_partner_sung-keun{ 
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.meme_partner_sung-keun:hover .meme_partner-text_box{
+  left: 320px;
+  opacity: 1;
+}
+
+.meme_partner_sung-keun_images
+{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  z-index: 10;
+}
+
+.sung-keun_image{
+  object-fit:scale-down;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+
+.sung-keun_shadow_image{
+  width: inherit;
+  height: inherit;
+  object-fit: scale-down;
+}
+
+.inner{
+  width: inherit;
+  height: inherit;
+  object-fit: scale-down;
+  transform: translateZ(30px);
+}
+
+.eagles-logo_image{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  opacity: 0.2;
+  z-index: -10;
+  left: -50px;
+}
+
+.back_image
+{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: -11;
+  top: 60px;
+  left: -15px;
+}
+
+.meme_partner-text_box{
+  position: absolute;
+  width: 250px;
+  height: 180px;
+  border-radius: 60px;
+  background-color: #F1732F;
+  top: 200px;
+  left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.meme_partner-text_box span{
+  color: white;
+}
+
+.meme_partner-left_ani{
+  position: absolute;
+  width: 500px;
+  height: 70px;
+  border-radius: 30px;
+  background-color: #FF9572;
+  transform: rotate(15deg);
+  left: -80px;
+  z-index: -1;
+}
+
+.meme_partner-left_ani::before{
+  content: '';
+  position: absolute;
+  width: 130%;
+  height: 60px;
+  top: 30px;
+  border-radius: 30px;
+  background-color: #FF6633;
+}
+
+.meme_partner-left_ani::after{
+  content: '';
+  position: absolute;
+  width: 110%;
+  height: 60px;
+  top: 60px;
+  border-radius: 30px;
+  background-color: #FFC5B2;
+}
+
+/* 그린 미스트 #70DB77 */

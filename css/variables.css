@@ -1,5 +1,9 @@
 :root{
     --bar-color-purple: #9386CB;
     --bar-color-pink: #DC7DB4;
+    --bar-color-light_gray: rgba(128, 128, 128, 1);
+    --bar-color-dark_navy: rgba(47, 53, 66, 1);
+    --bar-color-light_gray_transparent: rgba(128, 128, 128, 0);
+    --bar-color-dark_navy_transparent: rgba(47, 53, 66, 0);
     --bar-progress: 0%;
 }
