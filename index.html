@@ -6,8 +6,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js" defer></script>
-    <script type="text/javascript" src="vanilla-tilt.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/scroll-animation.js" defer></script>
+    <script type="text/javascript" src="js/vanilla-tilt.js" defer></script>
     <title>케인월드</title>
   </head>
   <!-- #endregion -->
@@ -118,25 +119,25 @@
     <div class="meme_partner-screen">
       <div class="meme_partner">
         <div class="meme_partner_sung-keun">
-          <div class="meme_partner-left_ani_one"></div>
-          <div class="meme_partner-left_ani_two"></div>
-          <div class="meme_partner-left_ani_three"></div>
+          <div class="ani meme_partner-left_ani"><div class="shape-left_rotated_one"></div></div>
+          <div class="ani meme_partner-left_ani"><div class="shape-left_rotated_two"></div></div>
+          <div class="ani meme_partner-left_ani"><div class="shape-left_rotated_three"></div></div>
 
           <div class="meme_partner_sung-keun_images" data-tilt>
             <img
-              class="sung-keun_image"
+              class="absolute_image"
               src="images/meme/sung-keun_shadow.png"
             />
             <div class="inner">
               <img
-                class="sung-keun_shadow_image"
+                class="ani absolute_image size_up"
                 src="images/meme/sung-keun.png"
               />
             </div>
           </div>
 
-          <img class="eagles-logo_image" src="images/meme/eagles-logo.svg" />
-          <img class="back_image" src="images/meme/sung-keun_back.png" />
+          <img class="sung-keun_logo_image" src="images/meme/sung-keun_logo.svg" />
+          <img class="sung-keun_back_image" src="images/meme/sung-keun_back.png" />
 
           <div class="meme_partner-text_box">
             <span
@@ -149,31 +150,31 @@
         </div>
       </div>
 
-      <div class="meme_partner">
-        <div class="meme_partner_sung-keun">
-          <div class="meme_partner-left_ani_one"></div>
-          <div class="meme_partner-left_ani_two"></div>
-          <div class="meme_partner-left_ani_three"></div>
+      <div class="meme_partner float-right">
+        <div class="meme_partner_tajiri">
+          <div class="ani meme_partner-left_ani"><div class="shape-left_rotated_one"></div></div>
+          <div class="ani meme_partner-left_ani"><div class="shape-left_rotated_two"></div></div>
+          <div class="ani meme_partner-left_ani"><div class="shape-left_rotated_three"></div></div>
 
-          <div class="meme_partner_sung-keun_images" data-tilt>
+          <div class="meme_partner_tajiri_images" data-tilt>
             <img
-              class="sung-keun_image"
-              src="images/meme/sung-keun_shadow.png"
+              class="absolute_image"
+              src="images/meme/tajiri_shadow.png"
             />
             <div class="inner">
               <img
-                class="sung-keun_shadow_image"
-                src="images/meme/sung-keun.png"
+                class="ani absolute_image size_up"
+                src="images/meme/tajiri.png"
               />
             </div>
           </div>
 
-          <img class="eagles-logo_image" src="images/meme/eagles-logo.svg" />
-          <img class="back_image" src="images/meme/sung-keun_back.png" />
+          <img class="tajiri_logo_image" src="images/meme/tajiri_logo.png" />
+          <img class="tajiri_back_image" src="images/meme/tajiri_back.png" />
 
           <div class="meme_partner-text_box">
             <span
-              >한화의 감독 김성근,<br />
+              >케인의 절친, 타지리.<br />
               그는 케인의 정신적 지주이다.<br />김성근 감독이 케인을 부르면
               항상<br />
               '예, 김성근 감독님 사랑해'로 대답한다.</span
@@ -182,8 +183,6 @@
         </div>
       </div>
     </div>
-
-    
 
     <script
       src = "https://kit.fontawesome.com/6478f529f2.js";
